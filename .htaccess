@@ -23,9 +23,5 @@ RewriteRule ^gallery/(.+)/?$ gallery.php?view=$1 [NC,L]
 # rewrite other pages
 RewriteRule ^(prints|about|follow|contact|blog)/?$ $1.php [NC,L]
 
-# -- production environment only --
-# Options -MultiViews
-# RewriteBase /
-
-# -- development environment only --
-RewriteBase /christinaholvey.co.uk//live
+Options -MultiViews
+RewriteBase /
