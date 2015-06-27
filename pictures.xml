@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!-- dimensions given in cm -->
+<!-- available attributes: width, height, sold, price -->
+
+<pictures showPrices="no">
+	<paintings>
+		<picture width="40" height="40" sold="no">
+			<title>Beauty of Bath Fallers</title>
+			<medium>Oil on board</medium>
+			<image>beautyOfBathFallers.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="no">
+			<title>Jar of Hellebores</title>
+			<medium>Oil on board</medium>
+			<image>jarOfHellebores.jpg</image>
+		</picture>
+		<picture width="45" height="30" sold="no">
+			<title>Waxwings at Lunch Time</title>
+			<medium>Oil on board</medium>
+			<image>waxwingsAtLunchTime.jpg</image>
+		</picture>
+		<picture width="30" height="25" sold="no">
+			<title>Over the Beech Hedge</title>
+			<medium>Oil on board</medium>
+			<image>overTheBeechHedge.jpg</image>
+		</picture>
+		<picture width="25" height="20" sold="yes">
+			<title>Winter Wood</title>
+			<medium>Oil on board</medium>
+			<image>winterWood.jpg</image>
+		</picture>
+		<picture width="23" height="35" sold="yes">
+			<title>Bullfinch Tea-Break</title>
+			<medium>Oil on board</medium>
+			<image>bullfinchTeaBreak.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="yes">
+			<title>Blue Tits On Primrose Bank</title>
+			<medium>Oil on board</medium>
+			<image>blueTitsOnPrimroseBank.jpg</image>
+		</picture>
+		<picture width="25" height="45" sold="yes">
+			<title>Goldfinch Coffee Morning</title>
+			<medium>Oil on board</medium>
+			<image>goldfinchCoffeeMorning.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="yes">
+			<title>Over The Wall Fox</title>
+			<medium>Oil on board</medium>
+			<image>overTheWallFox.jpg</image>
+		</picture>
+		<!--picture width="35" height="45" sold="no">
+			<title>The Observer</title>
+			<medium>Oil on board</medium>
+			<image>theObserver.jpg</image>
+		</picture-->
+		<!--picture width="40" height="40" sold="no">
+			<title>Olive And The Seedlings</title>
+			<medium>Oil on board</medium>
+			<image>oliveAndTheSeedlings.jpg</image>
+		</picture-->
+		<picture width="35" height="22" sold="yes">
+			<title>Jazzy Bird</title>
+			<medium>Oil on board</medium>
+			<image>jazzyBird.jpg</image>
+		</picture>
+		<picture width="40" height="40" sold="no">
+			<title>Field of Buttercups</title>
+			<medium>Oil on board</medium>
+			<image>fieldOfButtercups.jpg</image>
+		</picture>
+		<picture width="45" height="60" sold="no">
+			<title>October</title>
+			<medium>Oil on board</medium>
+			<image>october.jpg</image>
+		</picture>
+		<picture width="40" height="40" sold="yes">
+			<title>The Listener</title>
+			<medium>Oil on board</medium>
+			<image>theListener.jpg</image>
+		</picture>
+		<picture width="40" height="50" sold="nfs">
+			<title>The Bird Man</title>
+			<medium>Oil on board</medium>
+			<image>theBirdMan.jpg</image>
+		</picture>
+		<picture width="40" height="40" sold="no">
+			<title>The Visitor</title>
+			<medium>Oil on board</medium>
+			<image>theVisitor.jpg</image>
+		</picture>
+		<picture width="40" height="40" sold="yes">
+			<title>In The Bluebells</title>
+			<medium>Oil on board</medium>
+			<image>inTheBluebells.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="no">
+			<title>Summer Evening Downstream</title>
+			<medium>Oil on board</medium>
+			<image>summerEveningDownstream.jpg</image>
+		</picture>
+		<picture width="50" height="40" sold="no">
+			<title>Mixed Flock</title>
+			<medium>Oil on board</medium>
+			<image>mixedFlock.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="nfs">
+			<title>November</title>
+			<medium>Oil on board</medium>
+			<image>november.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="yes">
+			<title>Tomato Soup</title>
+			<medium>Oil on board</medium>
+			<image>tomatoSoup.jpg</image>
+		</picture>
+		<!--picture width="40" height="30" sold="no">
+			<title>Ruby &amp; The White Orchid</title>
+			<medium>Oil on board</medium>
+			<image>rubyAndTheWhiteOrchid.jpg</image>
+		</picture-->
+		<picture width="50" height="40" price="195" sold="yes">
+			<title>Under The Magic Apple Tree</title>
+			<medium>Oil on board</medium>
+			<image>underTheMagicAppleTree.jpg</image>
+		</picture>
+		<picture width="40" height="30" sold="yes">
+			<title>Hot Honey &amp; Lemon</title>
+			<medium>Oil on board</medium>
+			<image>hotHoneyAndLemon.jpg</image>
+		</picture>
+		<!--picture width="30" height="40" price="180" sold="no">
+			<title>Jays Searching For Acorns</title>
+			<medium>Acrylic on board</medium>
+			<image>jaysSearchingForAcorns.jpg</image>
+		</picture-->
+		<picture width="40" height="40" price="120" sold="yes">
+			<title>Olive &amp; Watering Can</title>
+			<medium>Oil on board</medium>
+			<image>oliveAndWateringCan.jpg</image>
+		</picture>
+		<!--picture width="30" height="40" price="180" sold="no">
+			<title>Owl at Nighttime</title>
+			<medium>Acrylic on board</medium>
+			<image>owlAtNighttime.jpg</image>
+		</picture-->
+		<!--picture width="30" height="30" price="185" sold="no">
+			<title>St Michael&#39;s Church, Bath</title>
+			<medium>Oil on board</medium>
+			<image>stMichaelsChurchBath.jpg</image>
+		</picture-->
+		<!--picture width="30" height="30" price="180" sold="no">
+			<title>Bob With Goldfinches</title>
+			<medium>Acrylic and mixed media</medium>
+			<image>bobWithGoldfinches.jpg</image>
+		</picture-->
+		<!--picture width="30" height="30" price="185" sold="no">
+			<title>Coffee For Bob</title>
+			<medium>Oil on board</medium>
+			<image>coffeeForBob.jpg</image>
+		</picture-->
+	</paintings>
+	<illustrations>
+		<picture>
+			<title>Outside Tap</title>
+			<medium>Pencil and Graphite</medium>
+			<image>outsideTap.jpg</image>
+		</picture>
+		<picture>
+			<title>In The Back Garden</title>
+			<medium>Pencil and Graphite</medium>
+			<image>inTheBackGarden.jpg</image>
+		</picture>
+		<picture>
+			<title>Kingfisher Downstream</title>
+			<medium>Pencil and Graphite</medium>
+			<image>kingfisherDownstream.jpg</image>
+		</picture>
+		<picture>
+			<title>Badger On The Dandelion Lawn</title>
+			<medium>Pencil and Graphite</medium>
+			<image>dandelionLawn.jpg</image>
+		</picture>
+	</illustrations>
+</pictures>
