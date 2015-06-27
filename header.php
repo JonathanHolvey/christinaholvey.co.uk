@@ -1,14 +1,17 @@
-<div id="container">
-	<!-- header start -->
-	<div id="header" class="headerText">
-		<img src="images/christinaHolvey.png" alt="Christina Holvey"/><br/>
-		ARTIST &amp; ILLUSTRATOR
-		<div id="links">
-			<a href="index.php"><img id="homeLink" src="images/home.png" alt="Home"/></a> &#8226; 
-			<a href="gallery.php?page=paintings"><img id="galleryLink" src="images/gallery.png" alt="Gallery"/></a> &#8226; 
-			<a href="statement.php"><img id="statementLink" src="images/statement.png" alt="Statement"/></a> &#8226; 
-			<!-- <a href="shop.php"><img id="shopLink" src="images/shop.png" alt="Shop"/></a> &#8226; -->
-			<a href="contact.php"><img id="contactLink" src="images/contact.png" alt="Contact"/></a> 
+<div class="container">
+	<div class="header">
+		<div class="nav">
+			<div id="link_home"><a href="/">Home</a></div>
+			<div id="link_paintings"><a href="gallery/paintings">Paintings</a></div>
+			<div id="link_illustrations"><a href="gallery/illustrations">Illustrations</a></div>
+			<div id="link_prints"><a href="prints">Prints</a></div>
+			<div id="link_follow"><a href="follow">Follow</a></div>
+			<div id="link_blog"><a href="blog">Blog</a></div>
+			<div id="link_about"><a href="about">About</a></div>
+			<div id="link_contact"><a href="contact">Contact</a></div>
+		</div>
+		<div class="logo">
+			<a href="/"><img src="images/logo.png" alt="Christina Holvey"/></a>
+			<img src="images/birds.png" alt="" style="float:right"/>
 		</div>
 	</div>
-	<!-- header end -->

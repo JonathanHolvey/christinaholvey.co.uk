@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<events>
+	<event endTime="1362960000" startTime="1362614400">
+		<title>Affordable Art Fair Battersea</title>
+		<description/>
+		<location>Battersea Park, London</location>
+		<url>http://www.affordableartfair.com/battersea</url>
+	</event>
+	<event endTime="1367190000" startTime="1366930800">
+		<title>Affordable Art Fair Bristol</title>
+		<description/>
+		<location>Brunel's Old Station, Temple Meads, Bristol</location>
+		<url>http://www.affordableartfair.com/bristol</url>
+	</event>
+	<event endTime="1371423600" startTime="1371078000">
+		<title>Affordable Art Fair Hampstead</title>
+		<description/>
+		<location>Hampstead Heath, London</location>
+		<url>http://www.affordableartfair.com/hampstead</url>
+	</event>
+	<event duration="all year" endTime="1388620800" startTime="1388534400">
+		<title>New Greetings Cards</title>
+		<description>Launching in 2014 - a new collection of greetings cards published Dry Red Press, available from retailers throughout the UK. 
+</description>
+		<url>http://www.dryredpress.com</url>
+	</event>
+	<event duration="all month" endTime="1409556600" startTime="1409554800">
+		<title>Rostra Gallery Solo Show 2014</title>
+		<description/>
+		<location>Rostra Gallery, Bath</location>
+	</event>
+</events>

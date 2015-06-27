@@ -1,185 +1,349 @@
 <?xml version="1.0" encoding="ISO-8859-1"?>
-<!-- dimensions given in cm -->
-<!-- available attributes: width, height, sold, price -->
-
-<pictures showPrices="no">
-	<paintings>
-		<picture width="40" height="40" sold="no">
-			<title>Beauty of Bath Fallers</title>
-			<medium>Oil on board</medium>
-			<image>beautyOfBathFallers.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="no">
-			<title>Jar of Hellebores</title>
-			<medium>Oil on board</medium>
-			<image>jarOfHellebores.jpg</image>
-		</picture>
-		<picture width="45" height="30" sold="no">
-			<title>Waxwings at Lunch Time</title>
-			<medium>Oil on board</medium>
-			<image>waxwingsAtLunchTime.jpg</image>
-		</picture>
-		<picture width="30" height="25" sold="no">
-			<title>Over the Beech Hedge</title>
-			<medium>Oil on board</medium>
-			<image>overTheBeechHedge.jpg</image>
-		</picture>
-		<picture width="25" height="20" sold="yes">
-			<title>Winter Wood</title>
-			<medium>Oil on board</medium>
-			<image>winterWood.jpg</image>
-		</picture>
-		<picture width="23" height="35" sold="yes">
-			<title>Bullfinch Tea-Break</title>
-			<medium>Oil on board</medium>
-			<image>bullfinchTeaBreak.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="yes">
-			<title>Blue Tits On Primrose Bank</title>
-			<medium>Oil on board</medium>
-			<image>blueTitsOnPrimroseBank.jpg</image>
-		</picture>
-		<picture width="25" height="45" sold="yes">
-			<title>Goldfinch Coffee Morning</title>
-			<medium>Oil on board</medium>
-			<image>goldfinchCoffeeMorning.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="yes">
-			<title>Over The Wall Fox</title>
-			<medium>Oil on board</medium>
-			<image>overTheWallFox.jpg</image>
-		</picture>
-		<!--picture width="35" height="45" sold="no">
-			<title>The Observer</title>
-			<medium>Oil on board</medium>
-			<image>theObserver.jpg</image>
-		</picture-->
-		<!--picture width="40" height="40" sold="no">
-			<title>Olive And The Seedlings</title>
-			<medium>Oil on board</medium>
-			<image>oliveAndTheSeedlings.jpg</image>
-		</picture-->
-		<picture width="35" height="22" sold="yes">
-			<title>Jazzy Bird</title>
-			<medium>Oil on board</medium>
-			<image>jazzyBird.jpg</image>
-		</picture>
-		<picture width="40" height="40" sold="no">
-			<title>Field of Buttercups</title>
-			<medium>Oil on board</medium>
-			<image>fieldOfButtercups.jpg</image>
-		</picture>
-		<picture width="45" height="60" sold="no">
-			<title>October</title>
-			<medium>Oil on board</medium>
-			<image>october.jpg</image>
-		</picture>
-		<picture width="40" height="40" sold="yes">
-			<title>The Listener</title>
-			<medium>Oil on board</medium>
-			<image>theListener.jpg</image>
-		</picture>
-		<picture width="40" height="50" sold="nfs">
-			<title>The Bird Man</title>
-			<medium>Oil on board</medium>
-			<image>theBirdMan.jpg</image>
-		</picture>
-		<picture width="40" height="40" sold="no">
-			<title>The Visitor</title>
-			<medium>Oil on board</medium>
-			<image>theVisitor.jpg</image>
-		</picture>
-		<picture width="40" height="40" sold="yes">
-			<title>In The Bluebells</title>
-			<medium>Oil on board</medium>
-			<image>inTheBluebells.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="no">
-			<title>Summer Evening Downstream</title>
-			<medium>Oil on board</medium>
-			<image>summerEveningDownstream.jpg</image>
-		</picture>
-		<picture width="50" height="40" sold="no">
-			<title>Mixed Flock</title>
-			<medium>Oil on board</medium>
-			<image>mixedFlock.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="nfs">
-			<title>November</title>
-			<medium>Oil on board</medium>
-			<image>november.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="yes">
-			<title>Tomato Soup</title>
-			<medium>Oil on board</medium>
-			<image>tomatoSoup.jpg</image>
-		</picture>
-		<!--picture width="40" height="30" sold="no">
-			<title>Ruby &amp; The White Orchid</title>
-			<medium>Oil on board</medium>
-			<image>rubyAndTheWhiteOrchid.jpg</image>
-		</picture-->
-		<picture width="50" height="40" price="195" sold="yes">
-			<title>Under The Magic Apple Tree</title>
-			<medium>Oil on board</medium>
-			<image>underTheMagicAppleTree.jpg</image>
-		</picture>
-		<picture width="40" height="30" sold="yes">
-			<title>Hot Honey &amp; Lemon</title>
-			<medium>Oil on board</medium>
-			<image>hotHoneyAndLemon.jpg</image>
-		</picture>
-		<!--picture width="30" height="40" price="180" sold="no">
-			<title>Jays Searching For Acorns</title>
+<pictures path="images/gallery/">
+	<picture>
+		<title>The Rain is Coming</title>
+		<view type="gallery" group="paintings">
+			<width>30</width>
+			<height>30</height>
 			<medium>Acrylic on board</medium>
-			<image>jaysSearchingForAcorns.jpg</image>
-		</picture-->
-		<picture width="40" height="40" price="120" sold="yes">
-			<title>Olive &amp; Watering Can</title>
-			<medium>Oil on board</medium>
-			<image>oliveAndWateringCan.jpg</image>
-		</picture>
-		<!--picture width="30" height="40" price="180" sold="no">
-			<title>Owl at Nighttime</title>
+			<file>rainComing.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Magic Apple Tree Mug</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
 			<medium>Acrylic on board</medium>
-			<image>owlAtNighttime.jpg</image>
-		</picture-->
-		<!--picture width="30" height="30" price="185" sold="no">
-			<title>St Michael&#39;s Church, Bath</title>
+			<file>magicAppleTreeMug.jpg</file>
+		</view>
+		<view type="print">
+			<price>65</price>
+			<file>magicAppleTreeMug.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Snowdrops at Tea Time</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>snowdropsAtTeaTime.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>A Love Song</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>aLoveSong.jpg</file>
+		</view>
+		<view type="slide" hidden="true">
+			<file>singer.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Sense and Sensibility</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>46</width>
+			<height>46</height>
+			<medium>Acrylic on board</medium>
+			<file>senseAndSensibility.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Catch of the Day</title>
+		<view type="gallery" group="paintings">
+			<width>46</width>
+			<height>46</height>
+			<medium>Acrylic on board</medium>
+			<file>catchOfTheDay.jpg</file>
+		</view>
+		<view type="slide">
+			<file>fishers.jpg</file>
+		</view>
+		<view type="print">
+			<file>catchOfTheDay.jpg</file>
+			<etsy>179308416</etsy>
+		</view>
+	</picture>
+	<picture>
+		<title>Kitchen Table Nest</title>
+		<view type="gallery" group="paintings">
+			<width>46</width>
+			<height>46</height>
+			<medium>Acrylic on board</medium>
+			<file>kitchenTableNest.jpg</file>
+		</view>
+		<view type="slide">
+			<file>jeeves.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>A Love Story</title>
+		<view type="gallery" group="paintings">
+			<width>46</width>
+			<height>46</height>
+			<medium>Acrylic on board</medium>
+			<file>aLoveStory.jpg</file>
+		</view>
+		<view type="print">
+			<file>aLoveStory.jpg</file>
+			<etsy>179307048</etsy>
+		</view>
+	</picture>
+	<picture>
+		<title>May FLowers</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>mayFlowers.jpg</file>
+		</view>
+		<view type="slide" hidden="true">
+			<file>cups.jpg</file>
+		</view>
+		<view type="print">
+			<file>mayFlowers.jpg</file>
+			<etsy>179307666</etsy>
+		</view>
+	</picture>
+	<picture>
+		<title>My Garden and Other Animals</title>
+		<view type="gallery" group="paintings">
+			<width>58</width>
+			<height>76</height>
+			<medium>Acrylic on board</medium>
+			<file>myGardenAndOtherAnimals.jpg</file>
+		</view>
+		<view type="slide" hidden="true">
+			<file>badger.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Tea For Two</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>teaForTwo.jpg</file>
+		</view>
+		<view type="slide">
+			<file>dog.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Bowl of Sparrows</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>bowlOfSparrows.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Chilly Spring Morning</title>
+		<view type="gallery" group="paintings">
+			<width>56</width>
+			<height>56</height>
+			<medium>Acrylic on board</medium>
+			<file>chillySpringMorning.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Olive &amp; Watering Can</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>40" price="120</height>
 			<medium>Oil on board</medium>
-			<image>stMichaelsChurchBath.jpg</image>
-		</picture-->
-		<!--picture width="30" height="30" price="180" sold="no">
-			<title>Bob With Goldfinches</title>
-			<medium>Acrylic and mixed media</medium>
-			<image>bobWithGoldfinches.jpg</image>
-		</picture-->
-		<!--picture width="30" height="30" price="185" sold="no">
-			<title>Coffee For Bob</title>
+			<file>oliveAndWateringCan.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Hot Honey &amp; Lemon</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>30</height>
 			<medium>Oil on board</medium>
-			<image>coffeeForBob.jpg</image>
-		</picture-->
-	</paintings>
-	<illustrations>
-		<picture>
-			<title>Outside Tap</title>
-			<medium>Pencil and Graphite</medium>
-			<image>outsideTap.jpg</image>
-		</picture>
-		<picture>
-			<title>In The Back Garden</title>
-			<medium>Pencil and Graphite</medium>
-			<image>inTheBackGarden.jpg</image>
-		</picture>
-		<picture>
-			<title>Kingfisher Downstream</title>
-			<medium>Pencil and Graphite</medium>
-			<image>kingfisherDownstream.jpg</image>
-		</picture>
-		<picture>
-			<title>Badger On The Dandelion Lawn</title>
-			<medium>Pencil and Graphite</medium>
-			<image>dandelionLawn.jpg</image>
-		</picture>
-	</illustrations>
+			<file>hotHoneyAndLemon.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>In The Bluebells</title>
+		<view type="gallery" group="paintings">
+			<width>40</width>
+			<height>40</height>
+			<medium>Oil on board</medium>
+			<file>inTheBluebells.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Beauty of Bath Fallers</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>40</height>
+			<medium>Oil on board</medium>
+			<file>beautyOfBathFallers.jpg</file>
+		</view>
+		<view type="slide" hidden="true">
+			<file>birds.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>The Listener</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>40</height>
+			<medium>Oil on board</medium>
+			<file>theListener.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>The Visitor</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>40</height>
+			<medium>Oil on board</medium>
+			<file>theVisitor.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Blue Tits On Primrose Bank</title>
+		<view type="gallery" group="paintings" hidden="true">
+			<width>40</width>
+			<height>30</height>
+			<medium>Oil on board</medium>
+			<file>blueTitsOnPrimroseBank.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>One Man Went to Mow</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>oneManWentToMow.jpg</file>
+		</view>
+		<view type="slide">
+			<file>mower.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Bullfinch o'Clock</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>bullFinchOClock.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>The Great Escape</title>
+		<view type="gallery" group="illustrations">
+			<width>60</width>
+			<height>47</height>
+			<medium>Pencil on paper</medium>
+			<file>theGreatEscape.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>In The Midnight Garden</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>inTheMidnightGarden.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Evening Song</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>eveningSong.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Unpacking With Reed Buntings</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>unpackingWithReedBuntings.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Dancing in the Daffodils</title>
+		<view type="gallery" group="illustrations">
+			<width>60</width>
+			<height>47</height>
+			<medium>Pencil on paper</medium>
+			<file>dancingInTheDaffodils.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Bathers and Butterflies</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>bathersAndButterflies.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>The Visitor</title>
+		<view type="gallery" group="illustrations">
+			<width>47</width>
+			<height>60</height>
+			<medium>Pencil on paper</medium>
+			<file>theVisitor2.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Going Home</title>
+		<view type="gallery" group="illustrations">
+			<width>37</width>
+			<height>45</height>
+			<medium>Pencil on paper</medium>
+			<file>goingHome.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>The Wren's House</title>
+		<view type="gallery" group="illustrations">
+			<width>37</width>
+			<height>45</height>
+			<medium>Pencil on paper</medium>
+			<file>theWrensHouse.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Down Stream</title>
+		<view type="gallery" group="illustrations">
+			<width>37</width>
+			<height>45</height>
+			<medium>Pencil on paper</medium>
+			<file>downStream.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Fishing</title>
+		<view type="gallery" group="illustrations">
+			<width>37</width>
+			<height>45</height>
+			<medium>Pencil on paper</medium>
+			<file>fishing.jpg</file>
+		</view>
+	</picture>
+	<picture>
+		<title>Three Little Blackbirds</title>
+		<view type="gallery" group="illustrations">
+			<width>37</width>
+			<height>45</height>
+			<medium>Pencil on paper</medium>
+			<file>threeLittleBlackbirds.jpg</file>
+		</view>
+	</picture>
 </pictures>
