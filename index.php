@@ -88,7 +88,7 @@
 			<div class="title">twitter</div>
 			<?php printTweet($tweets->tweet[0]); ?>
 		</div>
-		<p class="more" style="clear: right"><a href="follow">Read more tweets and see my calendar</a></p>
+		<p class="more" style="clear: both"><a href="follow">Read more tweets and see my calendar</a></p>
 		<div class="title">From my blog</div>
 		<?php printBlog($blog->post[0], $blog->url, $blog->author, true) ?>
 		<?php include("footer.php") ?>
