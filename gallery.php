@@ -15,7 +15,7 @@
 		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 		<?php include("resources.php") ?>
 		<script type="text/javascript" src="script/gallery.js"></script>
-		<script type="text/javascript">$(document).ready(function() {$("#link_<?php echo $_GET["view"] ?>").addClass("active");});</script>
+		<script type="text/javascript">$(document).ready(function() {$("#link_<?php echo $_GET['view'] ?>").addClass("active");});</script>
 	</head>
 	<body>
 		<?php include("header.php") ?>
