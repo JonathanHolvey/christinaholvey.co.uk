@@ -136,25 +136,34 @@ sup {
 .header .nav {
 	background: #453727;
 	height: 40px;
-	line-height: 20px;
-	padding-left: 133.5px;
-	font-size: 14.5px;
 }
 .header .nav,.header .nav a {
 	color: white;
 }
-.header .nav div {
+.header .nav .link-container {
+	line-height: 20px;
+	font-size: 14.5px;
 	float: left;
+	position: relative;
+	left: 50%;
+}
+.header .nav-links {
+	margin: 0;
+	padding: 0;
+	margin-left: -50%;
+	list-style: none;
+}
+.header .nav-links li {
 	padding: 0 15px 10px 15px;
 	margin-top: 10px;
-	position: relative;
+	float: left;
 }
-.header .nav div:hover {
+.header .nav-links li:hover {
 	background: #9BC3BB;
 	cursor: pointer;
-	padding: 5px 15px;
+	padding-top: 5px;
 }
-.header .nav div.active {
+.header .nav-links li.active {
 	border-bottom: 5px solid #F0AF99;
 	padding-bottom: 5px;
 }
