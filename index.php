@@ -51,7 +51,7 @@
 				}
 			?>
 		</div>
-		<p>I'm drawn towards the haphazard nature of the countryside. I take inspiration from the people I love, the birds in my garden and sheep in the fields beyond. My art is all about simplicity, texture, and colour. My aim is to make a canvas appear simple without losing the essence of the subject.</p>	
+		<p>Working from my rural studio in the heart of the Chew Valley, I look down on our meadow, where a carpet of primroses give way to a wooded corridor, which in turn follows the meandering path of a tinkling brook. It is this ever-changing scene that provides inspiration for both my painting and writing.</p>
 		<div class="half">
 			<div class="title">News</div>
 			<?php
