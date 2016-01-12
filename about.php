@@ -6,7 +6,7 @@
 		<meta name="robots" content="NOODP"/> <!-- prevent search engines from using ODP info in results -->
 		<meta http-equiv="content-type" content="text/html;charset=utf-8"/>
 		<?php include("resources.php") ?>
-		<script type="text/javascript">$(document).ready(function(){$("#link_about").addClass("active");})</script>
+		<script type="text/javascript">$(document).ready(function(){$("#link_about").addClass("active");});</script>
 	</head>
 	<body>
 		<?php include("header.php"); ?>
