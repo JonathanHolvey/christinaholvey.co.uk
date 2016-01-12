@@ -5,7 +5,6 @@
 	$pictures = simplexml_load_file("pictures.xml");
 	$news = simplexml_load_file("news.xml");
 	$tweets = simplexml_load_file("tweets.xml");
-	date_default_timezone_set("Europe/London");
 	
 	$maxFuture = 5;
 	$maxPast = 5;

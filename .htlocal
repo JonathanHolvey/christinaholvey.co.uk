@@ -1,3 +1,5 @@
+php_value date.timezone "Europe/London"
+
 RewriteEngine On
 
 # rewrite gallery pages
