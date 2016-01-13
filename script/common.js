@@ -4,12 +4,6 @@ $(document).ready(function() {
 		$(this).after("<div class=\"line\"/>");
 	});
 	
-	// make whole nav links and buttons clickable
-	$(".header .nav div,.button").click(function() {
-		if ($(this).find("a").attr("href"))
-			location.href = $(this).find("a").attr("href");
-	});
-	
 	// correct rotated title positions
 	$(".rotatedInfo").each(function() {
 		if (ieVersion() == 7) {

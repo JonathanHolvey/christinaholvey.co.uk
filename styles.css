@@ -154,16 +154,19 @@ sup {
 	list-style: none;
 }
 .header .nav-links li {
-	padding: 0 15px 10px 15px;
-	margin-top: 10px;
 	float: left;
 }
-.header .nav-links li:hover {
+.header .nav-links li a {
+	padding: 0 15px 10px 15px;
+	margin-top: 10px;
+	display: block;
+}
+.header .nav-links li a:hover {
 	background: #9BC3BB;
 	cursor: pointer;
 	padding-top: 5px;
 }
-.header .nav-links li.active {
+.header .nav-links li.active a {
 	border-bottom: 5px solid #F0AF99;
 	padding-bottom: 5px;
 }
