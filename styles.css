@@ -385,7 +385,7 @@ sup {
 	display: none;
 	line-height: 16px;
 }
-.comment .info:before {
+.comment .info::before {
 	display: inline-block;
 	width: 16px;
 	height: 16px;
@@ -410,7 +410,7 @@ sup {
 	display: inline-block;
 	margin-left: 10px;
 }
-.more:before {
+.more::before {
 	display: inline-block;
 	width: 16px;
 	height: 9px;
@@ -420,7 +420,7 @@ sup {
 	top: -1px;
 	content: "";
 }
-.more.rss:before {
+.more.rss::before {
 	background: url("images/rss.png");
 	height: 16px;
 	top: 3px;
