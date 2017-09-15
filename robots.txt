@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Disallow: /robots.txt
-Disallow: /thankYou.php
-Sitemap: http://www.christinaholvey.co.uk/sitemap.xml

@@ -1,4 +1,5 @@
 RewriteEngine On
+RewriteBase /
 
 # redirect moved pages
 RewriteRule ^statement\.php about [R=301,NC,L]
@@ -22,6 +23,3 @@ RewriteRule .*images/favicon.ico images/favicon.ico [NC]
 RewriteRule ^gallery/(.+)/?$ gallery.php?view=$1 [NC,L]
 # rewrite other pages
 RewriteRule ^(prints|about|follow|contact|blog)/?$ $1.php [NC,L]
-
-Options -MultiViews
-RewriteBase /
