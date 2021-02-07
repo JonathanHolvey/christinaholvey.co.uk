@@ -1,0 +1,19 @@
+version: '3.7'
+
+networks:
+  front:
+    external: true
+    name: proxy
+
+services:
+  web:
+    build:
+      context: ./web
+    container_name: christinaholvey-web
+    networks:
+      - front
+    environment:
+      VIRTUAL_HOST: local.christinaholvey.co.uk
+    volumes:
+      - ./web:/var/www/html
+    restart: on-failure
