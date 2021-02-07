@@ -1,0 +1,25 @@
+RewriteEngine On
+RewriteBase /
+
+# redirect moved pages
+RewriteRule ^statement\.php about [R=301,NC,L]
+RewriteRule ^calendar(\.php)? follow [R=301,NC,L]
+
+# correct old urls
+RewriteCond %{THE_REQUEST} /(prints|about|contact|blog)\.php [NC]
+RewriteRule ^(.*).php$ $1 [R=301,NC,L]
+RewriteCond %{THE_REQUEST} gallery\.php?view=(\w*) [NC]
+RewriteRule ^gallery\.php gallery/%1? [R=301,NC,L]
+
+# remove www subdomain
+RewriteCond %{HTTP_HOST} ^www\..*$ [NC]
+RewriteRule ^(.*)$ http://christinaholvey.co.uk/$1 [R=301,NC,QSA]
+
+# fix broken base tag in ie
+RewriteRule ^gallery/gallery/(.*) gallery/$1 [R,NC]
+RewriteRule .*images/favicon.ico images/favicon.ico [NC]
+
+# rewrite gallery pages
+RewriteRule ^gallery/(.+)/?$ gallery.php?view=$1 [NC,L]
+# rewrite other pages
+RewriteRule ^(prints|about|follow|contact|blog)/?$ $1.php [NC,L]
